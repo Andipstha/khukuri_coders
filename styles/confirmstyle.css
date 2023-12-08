@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    border: border-box;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    background: #044D94;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+   }
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #044D94;
+    display: flex;
+    padding: 4px;
+    height: 6rem;
+}
+.Confirm {
+    padding-left: 97px;
+}
+.method {
+    padding-left: 88px;
+    padding-top: 29px;
+}
+.Balance {
+    padding-left: 118px;
+    padding-top: 9px;
+}
+.Current-balance {
+    margin-left: 60px;
+}

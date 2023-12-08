@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    border: border-box;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    background: #044D94;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+   }
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #044D94;
+    display: flex;
+    padding: 4px;
+    height: 6rem;
+}
+.payment {
+    margin-left: 108px;
+}
+.Congratulations {
+    margin-left: 78px;
+    margin-top: -41px;
+}
+.circle {
+    background-color: rgba(0, 128, 0, 0.50);;
+    width: 51%;
+    height: 100%;
+    border-radius: 48%;
+    left: 40%;
+    top: -29px;
+    position: relative;
+}
+.money {
+    left: 36%;
+    top: 14px;
+    position: relative;
+}
+.token {
+    left: 36%;
+    top: 34px;
+    position: relative;
+}
+.confirm {
+    left: 26%;
+    top: 88px;
+    position: relative;
+}
+img {
+    width: 32%;
+    height: 92%;
+    position: relative;
+    left: 100px;
+}

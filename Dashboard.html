@@ -3,154 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dashboard</title>
-        <link rel="stylesheet" href="Dashstyle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>   
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      </head>
-    <body>
-      <div class="menu-container">
-  
-        <input type="checkbox" id="openmenu" class="hamburger-checkbox">
-        
-        <div class="hamburger-icon">
-          <label for="openmenu" id="hamburger-label">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>    
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./styles/student-dash.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+2%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Da+2%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400"/>
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    <div class="student-dash-nwf">
+        <div class="menubar-v2H">
+            <img id="sidebar" class="sidebar-FaM" src="./assets/sidebar.png"/>
+            <p class="menu-AhK">MENU</p>
+            <img onclick="goToCartPage()" class="shopping-cart-hBT" src="./assets/shopping-cart.png"/>
         </div>
-      
-          <div class="menu-pane">
-            
-            <nav>
-              <ul class="menu-links">
-                <li><a href="###">Québec, QC</a><span id="QC-info">
-                  <p>+1 418-640-3300</p>
-                </span>
-                  
-                </li>
+        <div class="menuitems-pWy">
+            <div class="auto-group-4vih-gp5">
+                <div class="food1-Qzy">
+                    <div class="rectangle-9-wED"></div>
+                    <img class="mask-group-mU9" src="./assets/mask-group-vff.png"/>
+                    <p class="veg-mo-mo-Vuw">Veg<br/>MO:MO</p>
+                    <p class="rs-90-Zuo">Rs. 90</p>
+                    <div class="group-46-rtu">
+                        <img class="shopping-cart-add-shopping-cart-checkout-add-plus-new-QZ3" src="./assets/shopping-cart-add.png"/>
+                        <p onclick="goToCartPage()" class="add-to-cart-7TT">Add to cart</p>
+                    </div>
+                </div>
+                <div class="food2-1qf">
+                    <div class="rectangle-9-mZw"></div>
+                    <img class="mask-group-TSm" src="./assets/mask-group.png"/>
+                    <p class="chicken-mo-mo-nzq">Chicken MO:MO</p>
+                    <p class="rs-110-h6D">Rs. 110</p>
+                    <div class="group-46-aQu">
+                        <img class="shopping-cart-add-shopping-cart-checkout-add-plus-new-UmB" src="./assets/shopping-cart-add.png"/>
+                        <p class="add-to-cart-Ae1">Add to cart</p>
+                    </div>
+                </div>
                 
-                <li><a href="###">déjeuner</a>
-                 
-                </li>
-                <li><a href="###">boulangerie</a></li>
-                <li><a href="###">boissons</a></li>
-              </ul>
-               <ul class="menu-links">
-                           <li><a href="###">Washington, DC</a>
-                             <span id="DC-info">
-                  <p>+1 202-472-3850</p>
-                </span></li>
-      
-                <li><a href="###">breakfast</a></li>
-                <li><a href="###">
-                  bakery            
-                  </a></li>
-                <li><a href="###">bar</a></li>
-              </ul>
-              
-              
-            </nav>
-          </div>
-      </div>
-        <div class="top">
-            <div class="logo"> <img src="kist college and ss.jpeg" alt="Couldn't load image"></div> 
-            <div class="nav-cart">
-              <i class="fa-solid fa-cart-shopping"><a class="cart-anim" href="cart.html">Cart</a></i>
-            </div> 
-          </div>
-            <div class="webname" style="left: 258px; top: 29px; position: absolute; color: #044D94; font-size: 24px; font-family: Lalezar; font-weight: 400; word-wrap: break-word">HAMRO CANTEEN</div>
-        <div class="menu">Our Today's Menu</div>
-        <div class="shop-section">
-          <div class="box1 box">
-            <div class="box-content">
-              <div class="box-img" style="background-image: url('veg\ momo.jpeg');"></div>
-            <p>VEG MO:MO</p>
-            
-            <a>Order</a>
-          </div>
-          </div>
-          <div class="box2 box">
-            <div class="box-content">
-              <div class="box-img" style="background-image: url('chicken\ momo.jpeg');"></div>
-              <p>CHICKEN MO:MO</p>
-              
             </div>
-            <a>Order</a>
-          </div>
-          <div class="box3 box">
-            <div class="box-content">
-              <div class="box-img" style="background-image: url('veg\ burger.jpeg');"></div>
-              <p>VEG BURGER</p>
-              <a>Order</a>
-            </div>
-          </div>
-          <div class="box4 box">
-            <div class="box-content">
-              <div class="box-img" style="background-image: url('chicken\ burger.jpeg');"></div>
-              <p>CHICKEN BURGER</p>
-              <a>Order</a>
-            </div>
-          </div>
-          <div class="box5 box">
-            <div class="box-content">
-            <div class="box-img" style="background-image: url('garlic\ potato\ wedges.jpeg');"></div>
-            <p>GARLIC POTATO WEDGES</p>
-            <a>Order</a>
-          </div>
-          </div>
-          <div class="box6 box">
-            <div class="box-content">
-              <div class="box-img" style="background-image: url('veg\ chowmein.jpeg');"></div> 
-              <p>VEG CHOWMEIN</p>
-              <a>Order</a>
-            </div>
-          </div>
-          <div class="box7 box">
-            <div class="box-content">
-              <div class="box-img" style="background-image: url('chicken\ chowmein.jpeg');"></div>
-              <p>CHICKEN CHOWMEIN</p>
-            </div>
+            <div class="auto-group-kjam-gcM">
+                <div class="food3-ogy">
+                  <div class="rectangle-9-ks7">
+                  </div>
+                  <img class="mask-group-TWd" src="./assets/mask-group-g7F.png"/>
+                  <p class="veg-burger-Pv5">
+                  Veg
+                  <br/>
+                  Burger 
+                  </p>
+                  <p class="rs-80-StM">Rs. 80</p>
+                  <div class="group-46-AJZ">
+                    <img class="shopping-cart-add-shopping-cart-checkout-add-plus-new-GMb" src="./assets/shopping-cart-add.png"/>
+                    <p class="add-to-cart-at5">Add to cart</p>
+                  </div>
+                </div>
+                <div class="food4-5pq">
+                  <div class="rectangle-9-SQV">
+                  </div>
+                  <img class="mask-group-jeV" src="./assets/mask-group-6aq.png"/>
+                  <p class="chicken-burger-4Rs">Chicken Burger</p>
+                  <p class="rs-100-MA5">Rs. 100</p>
+                  <div class="group-46-sPK">
+                    <img class="shopping-cart-add-shopping-cart-checkout-add-plus-new-BQ1" src="./assets/shopping-cart-add.png"/>
+                    <p class="add-to-cart-Utu">Add to cart</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <script>
+        const sidebar = document.getElementById('sidebar');
+        sidebar.addEventListener('click', function() {
+            window.location.href = 'student.html';
+    });
 
-          </div>
-          <div class="box8 box">
-            <div class="box-content">
-              <div class="box-img" style="background-image: url('veg\ fried\ rice.jpeg');"></div>
-              <p>VEG FRIED RICE</p>
-              <a>Order</a>
-            </div>
-          </div>
-          <div class="box8 box">
-            <div class="box-content">
-              <div class="box-img" style="background-image: url('chicken\ fried\ rice.jpg');"></div>
-              <p>CHICKEN FRIED RICE</p>
-              <a>Order</a>
-            </div>
-          </div>
-          <div class="box8 box">
-            <div class="box-content">
-              <div class="box-img" style="background-image: url('PASTRY.jpg');"></div>
-              <p>PASTRY</p>
-              <a>Order</a>
-            </div>
-          </div>
-          <div class="box8 box">
-            <div class="box-content">
-              <div class="box-img" style="background-image: url('bread\ chop.jpg');"></div>
-              <p>BREAD CHOP</p>
-              <a>Order</a>
-            </div>
-          </div>
-          <div class="box8 box">
-            <div class="box-content">
-              <div class="box-img" style="background-image: url('spicy\ chicken\ wings.jpg');"></div>
-              <p>SPICY CHICKEN WINGS</p>
-              <a>Order</a>
-            </div>
-          </div>
-            </div>
-    </body>
+    </script>
+</body>
 </html>

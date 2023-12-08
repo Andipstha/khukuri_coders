@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    border: border-box;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    background: #044D94;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+   }
+.nav-cart {
+    padding-left: 14rem;
+    padding-top: 23px;
+    font-size: 30px;
+    position: relative;
+    left: -95px;
+    right: 23px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #044D94;
+    display: flex;
+    padding: 4px;
+    height: 6rem;
+}
+.cart-anim {
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+img {
+    width: 91%;
+    height: 12%;
+    position: relative;
+    left: 69px;
+    top: 171px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 162px;
+    height: 33px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    left: 23px;
+    top: 23px;
+}
+
+.count {
+    font-size: 24px;
+    padding: 0 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
