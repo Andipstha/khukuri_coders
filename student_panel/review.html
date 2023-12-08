@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Give Review</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <form id="blog" class="custom_form" action="back_process/give_review.php" method="POST" enctype="multipart/form-data">
+        <div class="custom_field">
+            <label for="stu_id" class="norequired">Student Id</label><br>
+            <input class="placeholder" type="text" placeholder="Name" name="stu_id">
+        </div>
+        <div class="custom_field">
+            <label for="name" class="norequired">Name</label><br>
+            <input class="placeholder" type="text" placeholder="Name" name="name">
+        </div>
+        <div class="custom_field">
+            <label for="review" class="required">Review</label><br>
+            <textarea class="placeholder" required placeholder="Review" name="review"></textarea>
+        </div>
+        <div class="custom_field custom_submit">
+            <button class="custom_button_submit">
+                <p class="submit_text submit_item button_text">Send</p>
+            </button>
+        </div>
+    </form>
+</body>
+</html>
